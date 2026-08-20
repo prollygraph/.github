@@ -21,7 +21,7 @@ repos are that idea as working software: an engine, and data models built on it.
 
 ## Maintainers
 
-Maintained by **Manny Rivera** under **Earasoft**. Contact routes are GitHub-native:
+Maintained by **Manny Rivera** under **Earasoft**. Contact: [maintainer@prollygraph.org](mailto:maintainer@prollygraph.org). GitHub-native routes:
 issues on the relevant repo for bugs and questions, and each repo's `SECURITY.md`
 private-advisory channel for vulnerability or conduct reports — one family, one
 process. Per-repo `MAINTAINERS.md` files carry the same information beside the code.
