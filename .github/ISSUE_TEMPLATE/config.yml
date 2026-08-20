@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security reports (private)
+    url: https://github.com/prollygraph/prolly-core/security/advisories/new
+    about: >-
+      Suspected vulnerabilities never go in a public issue. Use this private
+      advisory route instead; any repository's SECURITY.md has the full
+      family route.

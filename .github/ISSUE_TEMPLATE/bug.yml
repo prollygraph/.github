@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a reproducible problem
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: The released version or commit hash you are running.
+      placeholder: e.g. 0.2.0-BETA, or a commit hash
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: >-
+        The smallest command, code snippet, or set of steps that reproduces
+        the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: observed-expected
+    attributes:
+      label: Observed vs expected
+      description: What actually happened, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log output or a stack trace, if you have one.
+      render: shell
+    validations:
+      required: false
