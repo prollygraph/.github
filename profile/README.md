@@ -19,6 +19,13 @@ repos are that idea as working software: an engine, and data models built on it.
 [docs](https://github.com/prollygraph/prolly-rdf/blob/main/docs/README.md)
 (foundations + anatomy walkthroughs, bugs left in).
 
+## Maintainers
+
+Maintained by **Manny Rivera** under **Earasoft**. Contact routes are GitHub-native:
+issues on the relevant repo for bugs and questions, and each repo's `SECURITY.md`
+private-advisory channel for vulnerability or conduct reports — one family, one
+process. Per-repo `MAINTAINERS.md` files carry the same information beside the code.
+
 Everything is Apache-2.0, pre-1.0 (`0.2.0-BETA`, formats evolve freely), and written
 in a calibrated-honesty register: numbers are dated and traceable, limits are stated
 next to benefits, and retractions stay visible. Vulnerability reports: any repo's
