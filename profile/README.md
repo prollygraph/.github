@@ -19,6 +19,15 @@ repos are that idea as working software: an engine, and data models built on it.
 [docs](https://github.com/prollygraph/prolly-rdf/blob/main/docs/README.md)
 (foundations + anatomy walkthroughs, bugs left in).
 
+**Evaluate it:** the
+[on-disk format specification](https://github.com/prollygraph/prolly-core/blob/main/docs/spec/on-disk-format.md)
+and [sync protocol specification](https://github.com/prollygraph/prolly-core/blob/main/docs/spec/sync-protocol.md)
+(normative — every constant cited to the defining code, each with a
+verification map) · the
+[SPARQL 1.1 conformance report](https://github.com/prollygraph/prolly-rdf/blob/main/CONFORMANCE.md)
+(174/176 query, 90/90 update, the two failures named and classified, with
+reproduction steps and the build-enforced ratchet).
+
 ## Maintainers
 
 Maintained by **Manny Rivera** under **Earasoft**. Contact routes are GitHub-native:
