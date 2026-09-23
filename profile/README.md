@@ -35,7 +35,7 @@ issues on the relevant repo for bugs and questions, and each repo's `SECURITY.md
 private-advisory channel for vulnerability or conduct reports — one family, one
 process. Per-repo `MAINTAINERS.md` files carry the same information beside the code.
 
-Everything is Apache-2.0, pre-1.0 (`0.2.0-BETA`, formats evolve freely), and written
+Everything is Apache-2.0, pre-1.0 (each repository's `pom.xml` names its version; formats evolve freely), and written
 in a calibrated-honesty register: numbers are dated and traceable, limits are stated
 next to benefits, and retractions stay visible. Vulnerability reports: any repo's
 `SECURITY.md` — one family, one private channel. Not affiliated with DoltHub, Inc.
