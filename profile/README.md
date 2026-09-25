@@ -1,6 +1,6 @@
 # prollygraph
 
-**Git semantics for structured data, on the JVM.** A [prolly tree](https://github.com/prollygraph/prolly-core/blob/main/docs/foundations/the-prolly-tree.md)
+**Git semantics for structured data, on the JVM.** A [prolly tree](https://github.com/prollygraph/learning-guide/blob/main/docs/foundations/the-prolly-tree.adoc)
 is a B-tree whose shape is a pure function of its content — every node stored under
 the hash of its own bytes — which buys commits, branches, three-way merge, O(changed)
 diff, and time-travel reads as *structural properties*, not bolted-on features. These
