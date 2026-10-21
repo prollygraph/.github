@@ -19,7 +19,7 @@ it keeps under change control.
 | [**prolly-rdf**](https://github.com/prollygraph/prolly-rdf) | Versioned SPARQL: a standard Eclipse RDF4J Sail with git-like history, a worst-case-optimal triejoin, W3C conformance run in every build, and 13 CI-locked runnable demos |
 | [**prolly-json**](https://github.com/prollygraph/prolly-json) | A versioned JSON document substrate — documents shredded into content-addressed rows so shared structure shares storage (development currently parked; the repo is the embeddable substrate) |
 
-**Start here:** the [two-minute landing page](https://github.com/prollygraph/prolly-rdf/blob/main/landing-page/index.html)
+**Start here:** the family's front door, [prolly-landing-page](https://github.com/prollygraph/prolly-landing-page) (the house, the product and a door per market and per library, at their real state); for the RDF library alone, the [two-minute page](https://github.com/prollygraph/prolly-rdf/blob/main/landing-page/index.html)
 (benefits *and* honest limits, with a time-travel demo built from a real run) · the
 [embedded quickstart](https://github.com/prollygraph/prolly-rdf/blob/main/prolly-rdf4j/docs/getting-started.md)
 (a versioned Sail in ~20 lines) · the
