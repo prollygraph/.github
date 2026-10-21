@@ -1,10 +1,17 @@
 # prollygraph
 
-**Git semantics for structured data, on the JVM.** A [prolly tree](https://github.com/prollygraph/learning-guide/blob/main/docs/foundations/the-prolly-tree.adoc)
+**Git semantics for structured data: one substrate, many faces.** Git versions lines of
+text; everything else that matters, an ontology, a filing, a configuration, a bill of
+materials, gets "versioned" by exporting a file and hoping. A [prolly tree](https://github.com/prollygraph/learning-guide/blob/main/docs/foundations/the-prolly-tree.adoc)
 is a B-tree whose shape is a pure function of its content — every node stored under
 the hash of its own bytes — which buys commits, branches, three-way merge, O(changed)
-diff, and time-travel reads as *structural properties*, not bolted-on features. These
-repos are that idea as working software: an engine, and data models built on it.
+diff, and time-travel reads as *structural properties*, not bolted-on features, at the
+level of the domain object: not "3,412 lines changed" but "nine classes moved, this label
+changed, this axiom was retracted". These repos are that idea as working software: one
+content-addressed engine, and a ring for each data shape built on it. RDF ships today; the
+other shapes are rings on the same store, each at its own stage and each README saying
+which. A team that learns branch, review and release on one face applies it to everything
+it keeps under change control.
 
 | Ring | What it is |
 |---|---|
